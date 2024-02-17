@@ -73,7 +73,7 @@ Note: to edit the notification bar use scrcpy (mentioned in Extra Tips)
 
 # To use Gmail:
 
-1. Enter the website "h t t p s : / / m y a c c o u n t . g o o g l e . c o m / s e c u r i t y"
+1. Enter the website "https://myaccount.google.com/security"
 2. Go to "two step validation"
 3. Scroll down and click on "app passwords"
 4. Create an app name and copy the password that is displayed
@@ -115,9 +115,9 @@ Note: to edit the notification bar use scrcpy (mentioned in Extra Tips)
  
 * If you fill the APN settings and the page is still blank when you save it, you need to ask your carrier for appropriate APN values.
 * Setting Sub Display font to small will show the date at the left of the clock (credits to someone, but I'm not sure where I saw it)
-* **scrcp** allows you to control the phone on the PC, making it easier for some tasks
+* [scrcpy ](https://github.com/Genymobile/scrcpy)allows you to control the phone on the PC, making it easier for some tasks
 * **adb shell input text "text"** allows you to write in fields with the console (replace "text" with desired text)
-* **adb shell wm density 160** will fix any issues with apps that are not compatible with small screens, but you have to use **adb shell wm density reset** once you leave the app (you can also install **resolution changer** to get similar results without a PC)
+* **adb shell wm density 160** will fix any issues with apps that are not compatible with small screens, but you have to use **adb shell wm density reset** once you leave the app (you can also install [resolution changer](https://apkcombo.com/pt/resolution-changer/com.draco.resolutionchanger/download/apk) to get similar results without a PC)
 * When writing something, pressing the camera key will make the letter go to the previous one, and if you press it after clicking the letter for the first time, it will switch to the assigned number (e.g. pressing "1" will write "a", you click on the camera key and it turns into "1"
 
 I'll try to update this whenever i can :)
